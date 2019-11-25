@@ -15,7 +15,7 @@ def doReplicate():
     curve = selection[1]
     
     # Build motion path
-    the_motion_path = cmd.pathAnimation( element, curve=curve, fractionMode=True, follow=True, followAxis="Z", startTimeU=1, endTimeU=100 )
+    the_motion_path = cmd.pathAnimation( element, curve=curve, fractionMode=True, follow=True, followAxis="z", upAxis="y", startTimeU=1, endTimeU=100 )
     
     # Flat animation curves
     cmd.keyTangent(the_motion_path, inTangentType="linear", outTangentType="linear")
