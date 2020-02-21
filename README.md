@@ -12,7 +12,6 @@
 All the tools below are accessible as buttons in the MTools shelf
 
 ### Replicator
-----------
 
 Pressing the shelf button will open the Replicator dialog pictured below
 
@@ -22,7 +21,6 @@ Select the element to replicate, select the curve path, adjust increment and nod
 The increment is the separation between repetitions, in percentage of the total length of the curve.
 
 ### UV transferator
----------------
 
 Transfer UV sets and color sets (if any) from first selected element to all other elements in selection.
 
