@@ -25,3 +25,7 @@ The increment is the separation between repetitions, in percentage of the total 
 Transfer UV sets and color sets (if any) from first selected element to all other elements in selection.
 
 First select the original element (with the right UVs), then add to the selection all other elements. Finally press the "UVxfr8r" button in the shelf
+
+### Texture renombrator
+
+Remove file textures path until "sourceimages/" (inclusive) to convert absolute to relative paths
