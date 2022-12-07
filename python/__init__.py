@@ -1,3 +1,3 @@
-import replicator
-import uvtransferator
-import texturetools
+from . import replicator
+from . import uvtransferator
+from . import texturetools
